@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Iinclude
 SRC = $(wildcard src/*.cpp)
 OBJ = $(SRC:.cpp=.o)
-EXEC = MyProject
+EXEC = {{PROJECT_NAME}}
 
 all: $(EXEC)
 
